@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\QRGenerator\\QRGenerator.csproj": {}
+    "C:\\Users\\USER\\OneDrive\\Documents\\generatorQR\\QRGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\QRGenerator\\QRGenerator.csproj": {
+    "C:\\Users\\USER\\OneDrive\\Documents\\generatorQR\\QRGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\QRGenerator\\QRGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Documents\\generatorQR\\QRGenerator.csproj",
         "projectName": "QRGenerator",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\QRGenerator\\QRGenerator.csproj",
+        "projectPath": "C:\\Users\\USER\\OneDrive\\Documents\\generatorQR\\QRGenerator.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\QRGenerator\\obj\\",
+        "outputPath": "C:\\Users\\USER\\OneDrive\\Documents\\generatorQR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
