@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\USER\OneDrive\Documents\generatorQR\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-08-14T17:56:11.4552552Z||;True|2024-08-13T17:42:13.8286360-05:00||;</History>
+    <History>True|2024-08-14T18:32:07.2260814Z||;True|2024-08-14T13:31:01.8340584-05:00||;True|2024-08-14T12:56:11.4552552-05:00||;True|2024-08-13T17:42:13.8286360-05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
