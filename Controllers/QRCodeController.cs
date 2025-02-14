@@ -22,13 +22,6 @@ public class QRCodeController : ControllerBase
         // Convert hex color to RGB
         Color qrColor = ColorTranslator.FromHtml(request.ColorHex);
 
-        // Set the path for the logo
-        string logoPath = Path.Combine("C:\\Users\\USER\\OneDrive\\Documents", "logo.png");
-        if (!System.IO.File.Exists(logoPath))
-        {
-            return BadRequest("El archivo de logo no se encuentra en la ruta especificada.");
-        }
-
         // Create a QR code writer
         var writer = new QRCodeWriter();
         var matrix = writer.encode(request.Link, BarcodeFormat.QR_CODE, 300, 300);
@@ -41,21 +34,6 @@ public class QRCodeController : ControllerBase
                 for (int y = 0; y < matrix.Height; y++)
                 {
                     qrCodeImage.SetPixel(x, y, matrix[x, y] ? Color.Black : Color.White);
-                }
-            }
-
-            // Load the logo
-            using (var logo = new Bitmap(logoPath))
-            {
-                // Calculate the position and size of the logo
-                int logoSize = qrCodeImage.Width / 5; // Adjust size as needed
-                int logoX = (qrCodeImage.Width - logoSize) / 2;
-                int logoY = (qrCodeImage.Height - logoSize) / 2;
-
-                using (Graphics graphics = Graphics.FromImage(qrCodeImage))
-                {
-                    // Draw the logo on the QR code
-                    graphics.DrawImage(logo, new Rectangle(logoX, logoY, logoSize, logoSize));
                 }
             }
 
